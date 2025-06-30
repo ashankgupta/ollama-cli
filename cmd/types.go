@@ -5,6 +5,7 @@ import "time"
 type Message struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
+	Images    []string  `json:"images,omitempty"`
 }
 
 type ChatRequest struct {
